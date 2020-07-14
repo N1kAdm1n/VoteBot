@@ -1,0 +1,14 @@
+{
+  "name": "votebot",
+  "version": "1.0.0",
+  "description": "adding voting reactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}

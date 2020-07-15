@@ -9,8 +9,8 @@ client.once('ready', () => {
 
 client.on('message', message => {
 	if((message.channel.id == "731650898400641085")||(message.channel.id == "719201079568629760")) {
-	console.log(message.author.username);
-	console.log(message.content);
+	console.log('Author' + message.author.username);
+	console.log('Message' + message.content);
 	message.react('➕');
 	message.react('➖');
 }
